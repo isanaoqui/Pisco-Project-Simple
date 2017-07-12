@@ -1,0 +1,14 @@
+{
+  "name": "pisco-project-simple",
+  "version": "1.0.0",
+  "description": "Simplest version ever. Need to start somewhere. ",
+  "dependencies": {
+    "node": "0.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:isanaoqui/Pisco-Project-Simple.git"
+  },
+  "author": "pinguina <isanaoqui@gmail.com>"
+}
