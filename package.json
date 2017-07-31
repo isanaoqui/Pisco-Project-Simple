@@ -4,8 +4,11 @@
   "version": "1.0.0",
   "description": "Simplest version ever. Need to start somewhere. ",
   "scripts": {
+    "start": "node main.js"
   },
+  "main": "main.js",
   "dependencies": {
+    "express": "^4.15.3",
     "node": "0.0.0",
     "twitter": "^1.7.1"
   },
