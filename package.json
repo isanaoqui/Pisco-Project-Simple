@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "Simplest version ever. Need to start somewhere. ",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "start_peru": "node scripts/dataPeru.js",
+    "start_chile": "node scripts/dataChile.js"
   },
   "main": "main.js",
   "dependencies": {

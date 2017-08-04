@@ -14,5 +14,11 @@ exports.client = new twitter({
   access_token_secret: 'KOD7Nfk0ZgRBVOTjqZiMyQgo5bnGFO4pQ54jF1EcPrlaa'
 })
 
-exports.searchPeru = 'pisco peru'
-exports.searchChile = 'pisco chile'
+function getDate() {
+  var today = new Date()
+  var month = today.getMonth().length == 2 ? today.getMonth() : '0' + (today.getMonth() + 1)
+  return today.getFullYear() + '-' + month + '-01'
+}
+
+exports.searchPeru = 'pisco (peru OR peruano) -chile -chileno since:' + getDate()
+exports.searchChile = 'pisco (chile OR chileno) -peru -peruano since:' + getDate()
